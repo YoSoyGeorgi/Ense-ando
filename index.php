@@ -39,6 +39,21 @@
 
     </header>
 
+    <section class="sec-1 show-animate">
+        <h1 class="animate">This is an example</h1>
+        <p>for the animated scroll</p> 
+    </section>
+    <section class="sec-2">
+        <h1 class="animate">This is another example</h1>
+        <p>for the animated scroll</p> 
+    </section>
+    <section class="sec-3">
+        <h1 class="animate">This the last example example</h1>
+        <p>for the animated scroll</p> 
+    </section>
+
+    <script src="scripts/script.js"></script>
+
 </body>
 
 </html>

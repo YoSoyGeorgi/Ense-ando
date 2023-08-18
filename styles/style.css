@@ -7,6 +7,55 @@
     font-family: "Open Sans", sans-serif;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #dcd8d8;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-size: 90px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 35px;
+    color: aqua;
+    font-weight: 600;
+}
+
+section .animate {
+    transition: 1s;
+}
+
+.sec-1 .animate{
+    transform: translateX(-100%);
+}
+
+.sec-1.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-2 .animate{
+    transform: translateX(100%);
+}
+
+.sec-2.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-3 .animate{
+    transform: scale(.7);
+}
+
+.sec-3.show-animate .animate {
+    transform: scale(1);
+}
+
 ul {
     list-style: none;
 
@@ -173,5 +222,3 @@ body {
     }
 
 }
-
-
