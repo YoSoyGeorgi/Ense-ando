@@ -13,7 +13,7 @@
     <header class="header">
 
         <a href="#" class="logo">
-            <img src="img/LOGO Enseñando.png" alt="Logo" style="width: 100px;">
+            <img src="img/ense.png" alt="Logo" style="width: 75px;">
         </a>
         <input type="checkbox" id="check">
 
